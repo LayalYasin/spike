@@ -3,12 +3,12 @@ You might face the situation that you have to create a new `Sample_Project` with
 In general, a new project - let us call it `FooBar`, needs to be "registered" in the `config.yaml` file of `spike`. You will find the `projects:` section with existing projects like `Alps` or `Keimbahn`.
   - **project name**: Just add a new entry for `FooBar` at the end of the existing projects with the right indentation (i.e. one tab). This name must be precisely used in all sample sheets for samples belonging to this project, thus ensure it follows Illumina naming restrictions, e.g. no "-" or white spaces.
   - **species**: If we assume the project deals with human samples, you need to add the key-value pair `species: homo sapiens` "below", i.e. one more indent, the project name.
-  - **snupy**: Since results of `spike` are uploaded to `snupy` and there is no common database, we here need to connect the `Sample_Project` (in spike) with the `project_id` (in snupy), which might be different for the two different instances running in `bonn` or at the `hhu`. Furthermore, one `contact` needs to be specified for every project in `snupy`, e.g. "Ute Fischer". You should now browse to the snupy instance of your choice and create an according new project `FooBar` there. Record the `project_id` (let us assume it is 42) and add a block to the config.yaml FooBar project like:
+  - **snupy**: Since results of `spike` are uploaded to `snupy` and there is no common database, we here need to connect the `Sample_Project` (in spike) with the `project_id` (in snupy), which might be different for the two different instances running in `bonn` or at the `hhu`. Furthermore, one `contact` needs to be specified for every project in `snupy`, e.g. "Ute Fischer". You should now browse to the snupy instance of your choice and create an according new project `FooBar` there. Record the `project_id` (let us assume it is 11 , this nummber can be find in the URL https://snupy.hpc.rz.uni-duesseldorf.de/experiments/11) and add a block to the config.yaml FooBar project like:
     ```
        snupy:
        hhu:
           contact: "Ute Fischer"
-          project_id: 42
+          project_id: 11
     ```
   - **genepanels**: The status update sheet can generate mean coverage values for given sets of genes. Those are defined as genepanels. Here, you can assign existing genepanels to the new project `FooBar` by adding the key `genepanels:` with the a list as value, e.g. 
     ```
