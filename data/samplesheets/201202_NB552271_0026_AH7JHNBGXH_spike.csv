@@ -1,0 +1,60 @@
+[Header],,,,,,,,,,,,
+IEMFileVersion,5,,,,,,,,,,,
+Date,12/2/2020,,,,,,,,,,,
+Workflow,GenerateFASTQ,,,,,,,,,,,
+Application,Nextseq FASTQ,,,,,,,,,,,
+Instrument Type,Nextseq 500/550,,,,,,,,,,,
+Assay,Agilent_SureSelect_Human_AllExon_V7,,,,,,,,,,,
+Index Adapters,Agilent_Sure_SelectXT_HS,,,,,,,,,,,
+Chemistry,SureSelectXT_HS ,,,,,,,,,,,
+Operator,Katayoun Alemazkur,,,,,,,,,,,
+Investigator,Ute Fischer / Rabea Wagener,,,,,,,,,,,
+Backup_NAS_name,Rondra,,,,,,,,,,,
+kind_of_run,2x151bp,,,,,,,,,,,
+[Reads],,,,,,,,,,,,
+151,,,,,,,,,,,,
+151,,,,,,,,,,,,
+,,,,,,,,,,,,
+[Settings],,,,,,,,,,,,
+ReverseComplement,0,,,,,,,,,,,
+Adapter,AGATCGGAAGAGCACACGTCTGAACTCCAGTCA,,,,,,,,,,,
+AdapterRead2,AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT,,,,,,,,,,,
+,,,,,,,,,,,,
+[Data],,,,,,,,,,,,
+Lane,Sample_ID,Sample_Name,Sample_Plate,Sample_Well,I7_Index_ID,index,Sample_Project,Description,spike_entity_id,spike_entity_role,spike_ignore_sample,capture_kit 
+1,KB0400_c,,,,A01,GTCTGTCA,Keimbahn,set1,KB0400,patient,,SureSelect Human All Exon V7 
+1,KB0400_f,,,,B01,TGAAGAGA,Keimbahn,set1,KB0400,father,,SureSelect Human All Exon V7 
+1,KB0400_m,,,,C01,TTCACGCA,Keimbahn,set1,KB0400,mother,,SureSelect Human All Exon V7 
+1,KB0364_c,,,,D01,AACGTGAT,Keimbahn,set1,KB0364,patient,,SureSelect Human All Exon V7 
+1,KB0364_f,,,,E01,ACCACTGT,Keimbahn,set1,KB0364,father,,SureSelect Human All Exon V7 
+1,KB0364_m,,,,F01,ACCTCCAA,Keimbahn,set1,KB0364,mother,,SureSelect Human All Exon V7 
+1,KB0325_c,,,,G01,ATTGAGGA,Keimbahn,set1,KB0325,patient,,SureSelect Human All Exon V7 
+1,KB0325_f,,,,H01,ACACAGAA,Keimbahn,set1,KB0325,father,,SureSelect Human All Exon V7 
+1,KB0325_m,,,,A02,GCGAGTAA,Keimbahn,set1,KB0325,mother,,SureSelect Human All Exon V7 
+2,KB0400_c,,,,A01,GTCTGTCA,Keimbahn,set2,KB0400,patient,,SureSelect Human All Exon V7 
+2,KB0400_f,,,,B01,TGAAGAGA,Keimbahn,set2,KB0400,father,,SureSelect Human All Exon V7 
+2,KB0400_m,,,,C01,TTCACGCA,Keimbahn,set2,KB0400,mother,,SureSelect Human All Exon V7 
+2,KB0364_c,,,,D01,AACGTGAT,Keimbahn,set2,KB0364,patient,,SureSelect Human All Exon V7 
+2,KB0364_f,,,,E01,ACCACTGT,Keimbahn,set2,KB0364,father,,SureSelect Human All Exon V7 
+2,KB0364_m,,,,F01,ACCTCCAA,Keimbahn,set2,KB0364,mother,,SureSelect Human All Exon V7 
+2,KB0325_c,,,,G01,ATTGAGGA,Keimbahn,set2,KB0325,patient,,SureSelect Human All Exon V7 
+2,KB0325_f,,,,H01,ACACAGAA,Keimbahn,set2,KB0325,father,,SureSelect Human All Exon V7 
+2,KB0325_m,,,,A02,GCGAGTAA,Keimbahn,set2,KB0325,mother,,SureSelect Human All Exon V7 
+3,KB0400_c,,,,A01,GTCTGTCA,Keimbahn,set3,KB0400,patient,,SureSelect Human All Exon V7 
+3,KB0400_f,,,,B01,TGAAGAGA,Keimbahn,set3,KB0400,father,,SureSelect Human All Exon V7 
+3,KB0400_m,,,,C01,TTCACGCA,Keimbahn,set3,KB0400,mother,,SureSelect Human All Exon V7 
+3,KB0364_c,,,,D01,AACGTGAT,Keimbahn,set3,KB0364,patient,,SureSelect Human All Exon V7 
+3,KB0364_f,,,,E01,ACCACTGT,Keimbahn,set3,KB0364,father,,SureSelect Human All Exon V7 
+3,KB0364_m,,,,F01,ACCTCCAA,Keimbahn,set3,KB0364,mother,,SureSelect Human All Exon V7 
+3,KB0325_c,,,,G01,ATTGAGGA,Keimbahn,set3,KB0325,patient,,SureSelect Human All Exon V7 
+3,KB0325_f,,,,H01,ACACAGAA,Keimbahn,set3,KB0325,father,,SureSelect Human All Exon V7 
+3,KB0325_m,,,,A02,GCGAGTAA,Keimbahn,set3,KB0325,mother,,SureSelect Human All Exon V7 
+4,KB0400_c,,,,A01,GTCTGTCA,Keimbahn,set4,KB0400,patient,,SureSelect Human All Exon V7 
+4,KB0400_f,,,,B01,TGAAGAGA,Keimbahn,set4,KB0400,father,,SureSelect Human All Exon V7 
+4,KB0400_m,,,,C01,TTCACGCA,Keimbahn,set4,KB0400,mother,,SureSelect Human All Exon V7 
+4,KB0364_c,,,,D01,AACGTGAT,Keimbahn,set4,KB0364,patient,,SureSelect Human All Exon V7 
+4,KB0364_f,,,,E01,ACCACTGT,Keimbahn,set4,KB0364,father,,SureSelect Human All Exon V7 
+4,KB0364_m,,,,F01,ACCTCCAA,Keimbahn,set4,KB0364,mother,,SureSelect Human All Exon V7 
+4,KB0325_c,,,,G01,ATTGAGGA,Keimbahn,set4,KB0325,patient,,SureSelect Human All Exon V7 
+4,KB0325_f,,,,H01,ACACAGAA,Keimbahn,set4,KB0325,father,,SureSelect Human All Exon V7 
+4,KB0325_m,,,,A02,GCGAGTAA,Keimbahn,set4,KB0325,mother,,SureSelect Human All Exon V7 
