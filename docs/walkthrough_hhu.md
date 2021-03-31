@@ -93,3 +93,11 @@ Black arrows indicate how you can communicate / control different machines. Gree
   2. `Could not run prolog: pro/epilogue failed, file: /var/spool/pbs/mom_priv/prologue, exit: 1, nonzero p/e exit status`
      
      The reason might be, that you are not (yet) added to the correct HPC project `ngsukdkohi`. Once your HPC account get's granted, you are assigned to at least one project which might be another than `ngsukdkohi`. Let the HPC guys know about this misconfiguration. Meanwhile, you can edit the defaul `account` in [cluster.yaml](../cluster.json#L4) and set it to your project.
+     
+  3.  `no internet access on HPC - to solve install conda env. use HHU conda repository as follow:`
+
+      vi /home/dealz101/.condarc
+default_channels:
+  - http://conda.repo.test.hhu.de/bioconda
+  - http://conda.repo.test.hhu.de/main
+  - http://conda.repo.test.hhu.de/conda-forge
